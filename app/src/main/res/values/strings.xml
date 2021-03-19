@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BMI Calc</string>
+    <string name="height">신장</string>
+    <string name="wight">체중</string>
+    <string name="check">확인하기</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="bmi">BMI : </string>
+    <string name="result">결과는 </string>
 </resources>
