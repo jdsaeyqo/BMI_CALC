@@ -10,5 +10,7 @@
 그 외에는 저체중 결과를 출력한다.
 ---
 # 앱 실행 화면
+![bmi_calc](https://user-images.githubusercontent.com/70185380/113085494-e264e480-921a-11eb-805e-afb53cd349b5.gif)
+
 
             
