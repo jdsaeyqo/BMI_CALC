@@ -1,11 +1,14 @@
 package com.example.bmicalc
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_result.*
 import kotlin.math.pow
 
 class ResultActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
@@ -26,15 +29,7 @@ class ResultActivity : AppCompatActivity() {
                 else -> "저체중"
         }
 
-        val bmitxt = findViewById<TextView>(R.id.bmiText)
-        val resulttxt = findViewById<TextView>(R.id.resultText)
-
-        bmitxt.text = bmi.toString()
-        resulttxt.text = resultText
-
-
-
-
-
+        textBmi.text = "BMI : $bmi"
+        textResult.text = "결과는 $resultText 입니다"
     }
 }
